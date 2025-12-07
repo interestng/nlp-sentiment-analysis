@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# NLTK data
+nltk_data/
+
+# Model outputs and generated files
+outputs/
+*.pkl
+*.pth
+*.h5
+*.model
+
+# Data files (optional - uncomment if you don't want to commit data)
+# data/*.csv
+# !data/reviews.csv  # Keep original dataset
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
