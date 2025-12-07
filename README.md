@@ -18,7 +18,7 @@ Trained on 50,000 IMDB movie reviews with an 80/20 train/test split:
 
 **Performance Metrics:**
 - **Overall Accuracy**: 87.1%
-- **F1 Score**: 0.872
+- **F1 Score**: 0.872   
 - **Precision**: 87% (both classes)
 - **Recall**: 87% (both classes)
 
@@ -26,7 +26,7 @@ The model performs well at distinguishing positive from negative reviews. Both c
 
 **Confusion Matrix:**
 
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 The confusion matrix shows the model correctly predicts most reviews. The diagonal values (true positives and true negatives) are much higher than the off-diagonal ones (false positives and false negatives), which is what we want.
 
